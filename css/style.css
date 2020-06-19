@@ -294,6 +294,10 @@ span.en-name {
 }
 
 .section-news-title {
+    font-weight: 900;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 65px;
 }
 
 .news-cards {
@@ -303,6 +307,20 @@ span.en-name {
 }
 
 .news-card {
-    flex-basis: 20%;
+    flex-basis: 23%;
     background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 5px;
+
+}
+.news-date{
+    font-size: 14px;
+    line-height: 16px;
+}
+.news-title{
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 14px;
 }
