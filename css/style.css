@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -367,7 +370,7 @@ span.en-name {
     background-color: transparent;
     cursor: pointer;
     padding: 0 20px;
-
+    outline: none;
 }
 .mobile-buttons button img{
     vertical-align: middle;
