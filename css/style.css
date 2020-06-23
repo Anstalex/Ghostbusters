@@ -14,9 +14,7 @@ body {
 
 }
 
-.scroll-lock {
-    overflow: hidden;
-}
+
 
 .header {
     display: flex;
