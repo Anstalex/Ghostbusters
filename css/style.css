@@ -537,9 +537,6 @@ span.en-name {
         position: fixed;
     }
 
-    @viewport {
-        user-zoom: fixed;
-    }
     .container {
         max-width: 95%;
     }
