@@ -524,11 +524,7 @@ span.en-name {
 }
 
 @media (max-width: 576px) {
-    body {
-        position: fixed;
-    }
-
-    .container {
+      .container {
         max-width: 95%;
     }
 
