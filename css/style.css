@@ -630,6 +630,10 @@ span.en-name {
     .search-icons {
         display: none;
     }
+    .alt-icon{
+        width: 19px;
+        height: 14px;
+    }
 
     .film-title {
         font-size: 20px;
