@@ -16,7 +16,6 @@ body {
 
 .scroll-lock {
     overflow: hidden;
-    position: fixed;
 }
 
 .header {
