@@ -522,6 +522,12 @@ span.en-name {
 }
 
 @media (max-width: 576px) {
+    body {
+        position:fixed;
+    }
+    @viewport {
+        user-zoom: fixed;
+    }
     .container {
         max-width: 95%;
     }
