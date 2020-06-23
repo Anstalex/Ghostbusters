@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -12,9 +13,10 @@ body {
     color: #363636;
 
 }
-.scroll-lock{
+
+.scroll-lock {
     overflow: hidden;
-position: fixed;
+    position: fixed;
 }
 
 .header {
@@ -25,7 +27,8 @@ position: fixed;
     padding-left: 34px;
     border-bottom: 1px solid #D4D4D4;
 }
-.modal{
+
+.modal {
     display: contents;
 }
 
@@ -355,10 +358,12 @@ span.en-name {
     width: 18px;
     cursor: pointer;
 }
-.hidden{
+
+.hidden {
     display: none;
 }
-.show{
+
+.show {
     display: block;
 }
 
@@ -374,11 +379,13 @@ span.en-name {
 .menu-line:before {
     margin: 3px 0;
 }
-.mobile-buttons{
+
+.mobile-buttons {
     display: flex;
     justify-content: space-between;
 
 }
+
 .mobile-buttons button {
     border: none;
     background-color: transparent;
@@ -386,13 +393,16 @@ span.en-name {
     padding: 0 20px;
     outline: none;
 }
-.mobile-buttons button img{
+
+.mobile-buttons button img {
     vertical-align: middle;
 }
-.mobile-buttons{
+
+.mobile-buttons {
     display: none;
 }
-.trailer-button a{
+
+.trailer-button a {
     margin: 0 10%;
 }
 
@@ -495,6 +505,7 @@ span.en-name {
         order: 0;
         margin-bottom: 20px;
     }
+
     .search-input {
         font-size: 12px;
         margin-left: 8px;
@@ -524,8 +535,9 @@ span.en-name {
 
 @media (max-width: 576px) {
     body {
-        position:fixed;
+        position: fixed;
     }
+
     @viewport {
         user-zoom: fixed;
     }
@@ -537,18 +549,21 @@ span.en-name {
         height: 65px;
         padding: 0 2.5%;
     }
-    .modal{
-        display:none;
-        background-color:  #5671F6;
+
+    .modal {
+        display: none;
+        background-color: #5671F6;
         width: 100%;
         height: 100%;
         position: fixed;
         top: 65px;
         left: 0;
     }
-    .open-menu{
+
+    .open-menu {
         display: block;
     }
+
     .logo {
         margin: 15px 180px 0 28px;
     }
@@ -602,7 +617,8 @@ span.en-name {
         display: flex;
         margin-right: 28px;
     }
-    .search-icons{
+
+    .search-icons {
         display: none;
     }
 
@@ -635,20 +651,24 @@ span.en-name {
         flex-basis: 100%;
         margin-bottom: 25px;
     }
+
     .news {
 
         padding-top: 53px;
     }
+
     .section-news-title {
         margin: 0;
         padding-bottom: 40px;
-        padding-left:28px ;
+        padding-left: 28px;
     }
+
     .news-card {
         flex-basis: 95%;
         margin-bottom: 60px;
     }
-    .news-card:not(:first-child){
+
+    .news-card:not(:first-child) {
         display: none;
 
     }
